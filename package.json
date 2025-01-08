@@ -1,0 +1,24 @@
+{
+  "name": "wechat-mp-scratchcard",
+  "version": "1.0.0",
+  "description": "Scratchcard for wechat mini programs.",
+  "main": "mp/index.js",
+  "miniprogram": "mp",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && lessc --source-map mp/index.less mp/index.wxss"
+  },
+  "keywords": [
+    "wechat",
+    "mini_program",
+    "scratchcard"
+  ],
+  "types": "types/mp/index.d.ts",
+  "author": "Reginald Lee",
+  "license": "MIT",
+  "devDependencies": {
+    "less": "^4.2.1",
+    "miniprogram-api-typings": "^4.0.2",
+    "typescript": "^5.7.2"
+  }
+}

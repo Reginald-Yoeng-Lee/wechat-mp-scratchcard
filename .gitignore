@@ -1,0 +1,10 @@
+**/node_modules
+
+**/*.tsbuildinfo
+
+mp/**/*.js
+mp/**/*.wxss
+mp/**/*.wxss.map
+types/
+
+.idea/

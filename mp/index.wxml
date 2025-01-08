@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+    <slot></slot>
+    <canvas id="mask" class="image" type="2d" disable-scroll="{{true}}" bindtouchstart="erase" bindtouchmove="erase" bindtouchend="detectErasingDone" bindtouchcancel="detectErasingDone"></canvas>
+</view>

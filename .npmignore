@@ -1,0 +1,13 @@
+**/node_modules
+
+**/*.tsbuildinfo
+
+**/*.ts
+**/*.less
+**/*.wxss.map
+
+.idea/
+
+!types/**/*.ts
+.npmrc
+preview.jpg
