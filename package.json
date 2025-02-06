@@ -1,6 +1,6 @@
 {
   "name": "wechat-mp-scratchcard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Scratchcard for wechat mini programs.",
   "main": "mp/index.js",
   "miniprogram": "mp",

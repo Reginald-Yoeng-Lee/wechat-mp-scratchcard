@@ -153,7 +153,7 @@ Component<DataOption, PropertyOption, MethodOption, WechatMiniprogram.Component.
                 return;
             }
 
-            const touch = event.touches.find(t => t.identifier === 0);
+            const touch = event.touches.sort((tA, tB) => tA.identifier - tB.identifier)[0];
             if (!touch) {
                 return;
             }
